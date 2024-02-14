@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_app"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/registar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="30dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/asap"
+            android:text="@string/registar_cliente"
+            android:textAlignment="center"
+            android:textColor="#8C8989"
+            android:textSize="35sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+       android:id="@+id/pesquisar"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="0dp"
+       android:layout_marginRight="30dp"
+       app:cardBackgroundColor="@android:color/transparent"
+       app:cardElevation="0dp"
+       app:cardCornerRadius="5dp">
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:fontFamily="@font/asap"
+          android:text="@string/pesquisar_cliente"
+          android:textColor="#8C8989"
+          android:textAlignment="center"
+          android:textSize="35sp" />
+   </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="background">Background</string>
+    <string name="registar_cliente">Registar Cliente</string>
+    <string name="pesquisar_cliente">Pesquisar Cliente</string>
+</resources>
